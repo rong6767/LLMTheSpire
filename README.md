@@ -57,34 +57,3 @@ Feel free to contribute to this project by opening issues or submitting pull req
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## Check the wiki to get started:
-
-https://github.com/Alchyr/BasicMod/wiki
-
----
-
-## Know what you're doing?
-
-You can still use this mod as a base, or you could use another template like https://github.com/DarkVexon/ProTemplate
-
-You can find more options in the pins of the #modding-technical channel in the Slay the Spire discord server.
-
----
-
-### Some HD Slay the Spire art assets (courtesy of Gremious, creator of DefaultMod):
-
-Includes:
-- Empty Relic Template feat. empty bottle
-- Empty Card Template
-- Color-Changable cardback
-- A couple of HD Monster vectors (Louse, Nob, Sentry, Sneaky Gremlin)
-- A coupe of HD items (J.A.X., A Coin)
-- 2 people silhouettes
-- A curse Background
-
-https://github.com/Gremious/StS-DefaultModBase#some-hd-slay-the-spire-art-assets
-
----
