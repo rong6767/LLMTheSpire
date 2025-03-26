@@ -1,6 +1,6 @@
 # LLM-Powered Slay the Spire Bot
 
-This mod uses OpenAI's language models via LangChain4j to enable AI-powered autoplay for Slay the Spire. The AI analyzes the game state and makes strategic decisions about card plays, potion usage, and other game actions.
+This mod uses LLMs to enable AI-powered autoplay for Slay the Spire. The AI analyzes the game state and makes strategic decisions about card plays, potion usage, and other game actions.
 
 ## Features
 
