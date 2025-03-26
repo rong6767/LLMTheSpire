@@ -724,8 +724,17 @@ public class LLMService {
         // 添加系统提示
         prompt.append("You are an AI playing Slay the Spire. Your goal is to make optimal decisions.\n\n");
         prompt.append("IMPORTANT: You MUST format your response in exactly this way:\n");
-        prompt.append("REASONING: [Your reasoning for the action]\n");
+        prompt.append("REASON: [Your reasoning for the action]\n");
         prompt.append("ACTION: [The exact one action to take from the available actions]\n\n");
+        
+        prompt.append("Valid action formats:\n");
+        prompt.append("- PLAY_CARD [index] [target_index] or PLAY_CARD index target_index (for cards requiring targets)\n");
+        prompt.append("- PLAY_CARD [index] or PLAY_CARD index (for cards not requiring targets)\n");
+        prompt.append("- USE_POTION [index] [target_index] or USE_POTION index target_index (for targeted potions)\n");
+        prompt.append("- END_TURN\n");
+        prompt.append("- CHOOSE_OPTION [index] or CHOOSE_OPTION index (for event options)\n");
+        prompt.append("And other actions as shown in 'Available Actions' below.\n\n");
+        
         prompt.append("Do not include any other text in your response. Only return one action at a time.\n\n");
         
         // 添加游戏状态信息
